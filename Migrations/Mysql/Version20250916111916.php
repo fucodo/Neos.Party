@@ -37,6 +37,6 @@ final class Version20250916111916 extends AbstractMigration
         );
 
 
-        $this->addSql('DROP INDEX idx_fucodo_account_expdde ON neos_flow_security_account');
+        $this->addSql('DROP INDEX idx_fucodo_account_exp ON neos_flow_security_account');
     }
 }
