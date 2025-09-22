@@ -27,7 +27,8 @@ use Neos\Flow\Annotations as Flow;
  *         @ORM\Index(name="idx_fucodo_neos_party_last_name", columns={"lastName"}),
  *         @ORM\Index(name="idx_fucodo_neos_party_other_name", columns={"otherName"}),
  *         @ORM\Index(name="idx_fucodo_neos_party_alias", columns={"alias"}),
- *         @ORM\Index(name="idx_fucodo_neos_party_full_name", columns={"fullName"})
+ *         @ORM\Index(name="idx_fucodo_neos_party_full_name", columns={"fullName"}),
+ *         @ORM\Index(name="idx_fucodo_account_exp", columns={"persistence_object_identifier", "expirationdate"})
  *     }
  * )
  */
